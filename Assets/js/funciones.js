@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function(){
         ]
     });
     $('.estudiante').select2({
-        placeholder: 'Buscar lector',
+        placeholder: 'Buscar Lector',
         minimumInputLength: 2,
         ajax: {
             url: base_url + 'Estudiantes/buscarEstudiante',
