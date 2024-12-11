@@ -56,7 +56,7 @@
     <div class="col-md-6 col-lg-3">
         <div class="widget-small info coloured-icon"><i class="icon fa fa-list-alt fa-3x"></i>
             <a class="info" href="<?php echo base_url; ?>Materia">
-                <h4>Materias</h4>
+                <h4>Categorias</h4>
                 <p><b><?php echo $data['materias']['total'] ?></b></p>
             </a>
         </div>
