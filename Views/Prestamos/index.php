@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-md-9">
                             <div class="form-group">
-                                <label for="estudiante">Estudiante</label><br>
+                                <label for="estudiante">Lector</label><br>
                                 <select name="estudiante" id="estudiante" class="form-control estudiante" required style="width: 100%;">
 
                                 </select>
