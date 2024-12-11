@@ -1,7 +1,7 @@
 <?php include "Views/Templates/header.php"; ?>
 <div class="app-title">
     <div>
-        <h1><i class="fa fa-dashboard"></i> Estudiantes</h1>
+        <h1><i class="fa fa-dashboard"></i> Lector</h1>
     </div>
 </div>
 <button class="btn btn-primary mb-2" type="button" onclick="frmEstudiante()"><i class="fa fa-plus"></i></button>
@@ -17,7 +17,7 @@
                                 <th>Código</th>
                                 <th>Dni</th>
                                 <th>Nombre</th>
-                                <th>Carrera</th>
+                                <th>Ocupacion</th>
                                 <th>Dirección</th>
                                 <th>Teléfono</th>
                                 <th>Estado</th>
@@ -36,7 +36,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary text-white">
-                <h5 class="modal-title text-white" id="title">Registro Estudiante</h5>
+                <h5 class="modal-title text-white" id="title">Registro Lector</h5>
                 <button class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -48,7 +48,7 @@
                             <div class="form-group">
                                 <label for="codigo">Código</label>
                                 <input type="hidden" id="id" name="id">
-                                <input id="codigo" class="form-control" type="text" name="codigo" required placeholder="Codigo del estudiante">
+                                <input id="codigo" class="form-control" type="text" name="codigo" required placeholder="Codigo del lector">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -65,7 +65,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label for="carrera">Carrera</label>
+                                <label for="carrera">Ocupacion</label>
                                 <input id="carrera" class="form-control" type="text" name="carrera" required placeholder="Carrera">
                             </div>
                         </div>

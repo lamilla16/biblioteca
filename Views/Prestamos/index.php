@@ -13,7 +13,7 @@
                     <tr>
                         <th>Id</th>
                         <th>Libro</th>
-                        <th>Estudiante</th>
+                        <th>Lector</th>
                         <th>Fecha Prestamo</th>
                         <th>Fecha Devolución</th>
                         <th>Cant</th>

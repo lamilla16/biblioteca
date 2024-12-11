@@ -18,7 +18,7 @@
                                 <th>Cant</th>
                                 <th>Autor</th>
                                 <th>Editorial</th>
-                                <th>Materia</th>
+                                <th>categoria</th>
                                 <th>Foto</th>
                                 <th>Descripción</th>
                                 <th>Estado</th>
